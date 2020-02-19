@@ -107,6 +107,7 @@ button {
     height: 72px;
     border: none;
     top: 50%;
+    transform: translateY(-50%);
     background-color: transparent;
     background-repeat: no-repeat;
 }

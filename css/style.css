@@ -70,7 +70,6 @@ body {
 
             /* section - welcome */
 .welcome {
-    position: relative;
     background-color: #eb4f4e;
 }
 
@@ -79,6 +78,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
     padding: 60px 0 25px;
     color: #fff;
     line-height: 24px;
@@ -91,8 +91,12 @@ body {
 
 .welcome-content-text {
     font-size: 20px;
-    padding: 25px 0 35px;
+    margin: 25px 0 35px;
     letter-spacing: 4px;
+}
+
+button {
+    cursor: pointer;
 }
 
 .welcome-prev,
@@ -101,19 +105,18 @@ body {
     content: "";
     width: 38px;
     height: 72px;
-    border: 0;
+    border: none;
     top: 50%;
     background-color: transparent;
     background-repeat: no-repeat;
-    cursor: pointer;
 }
 
 .welcome-prev {
     background-image: url(../img/welcome-prev.png);
-    left: 0;
+    left: -150px;
 }
 
 .welcome-next {
     background-image: url(../img/welcome-next.png);
-    right: 0;
+    right: -150px;
 }

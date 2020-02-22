@@ -12,7 +12,11 @@ body {
     font-family: 'Barlow Condensed', sans-serif;
 }
 
-            /* header */
+button {
+    cursor: pointer;
+}
+
+/* header */
 .header {
     position: relative;
     background-color: #f56262;
@@ -68,16 +72,12 @@ body {
     background-color: #232324;
 }
 
-            /* section - welcome */
+/* section - welcome */
 .welcome {
     background-color: #eb4f4e;
 }
 
 .welcome-content {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
     text-align: center;
     position: relative;
     padding: 60px 0 25px;
@@ -93,10 +93,6 @@ body {
     font-size: 20px;
     margin: 25px 0 35px;
     letter-spacing: 4px;
-}
-
-button {
-    cursor: pointer;
 }
 
 .welcome-prev,

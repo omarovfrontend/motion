@@ -12,6 +12,11 @@ body {
     font-family: 'Barlow Condensed', sans-serif;
 }
 
+button {
+    cursor: pointer;
+}
+
+/* header */
 .header {
     position: relative;
     background-color: #f56262;
@@ -65,4 +70,50 @@ body {
 .menu-link:hover,
 .menu-link.active {
     background-color: #232324;
+}
+
+/* section - welcome */
+.welcome {
+    background-color: #eb4f4e;
+}
+
+.welcome-content {
+    text-align: center;
+    position: relative;
+    padding: 60px 0 25px;
+    color: #fff;
+}
+
+.welcome-content-title {
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+
+.welcome-content-text {
+    font-size: 20px;
+    margin: 25px 0 35px;
+    letter-spacing: 4px;
+}
+
+.welcome-prev,
+.welcome-next {
+    position: absolute;
+    content: "";
+    width: 38px;
+    height: 72px;
+    border: none;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+
+.welcome-prev {
+    background-image: url(../img/welcome-prev.png);
+    left: -150px;
+}
+
+.welcome-next {
+    background-image: url(../img/welcome-next.png);
+    right: -150px;
 }

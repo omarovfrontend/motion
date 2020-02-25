@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./plugins/lightslider/slider/css/lightslider.min.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Motion</title>
 </head>
 <body>
@@ -37,5 +38,28 @@
             </nav>
         </div>
     </header>
+
+    <section class="welcome">
+        <div class="container welcome-content">
+            <ul class="welcome-slider">
+                <li>
+                    <h1 class="welcome-content-title">Welcome to Motion</h1>
+                    <p class="welcome-content-text">Asmart & Creative Single Page Template</p>
+                    <img src="./img/welcome-img.png" alt="welcome">
+                </li>
+                <li>
+                    <h1 class="welcome-content-title">Welcome to Motion</h1>
+                    <p class="welcome-content-text">Asmart & Creative Single Page Template</p>
+                    <img src="./img/welcome-img.png" alt="welcome">
+                </li>
+            </ul>
+            <button class="welcome-prev"></button>
+            <button class="welcome-next"></button>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./plugins/lightslider/slider/js/lightslider.min.js"></script>
+    <script src="./js/app.js"></script>
 </body>
 </html>

@@ -117,3 +117,52 @@ button {
     background-image: url(../img/welcome-next.png);
     right: -150px;
 }
+
+/* section - smart */
+.smart {
+    background-color: #232324;
+}
+
+.smart-content {
+    text-align: center;
+    padding: 45px 0 30px;
+    color: #fff;
+}
+
+.smart-content-title {
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+.smart-content-text {
+    font-size: 20px;
+    color: #d94948;
+    margin: 25px 0 35px;
+    letter-spacing: 2px;
+}
+
+.smart-content-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.smart-content-item {
+    width: 240px;
+}
+
+.smart-content-item img {
+    margin-bottom: 15px;
+}
+
+.smart-content-item h3 {
+    font-size: 30px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.smart-content-item p {
+    font-size: 18px;
+    line-height: 21px;
+    color: #e74c3c;
+}

@@ -117,3 +117,55 @@ button {
     background-image: url(../img/welcome-next.png);
     right: -150px;
 }
+
+/* section - smart */
+.smart {
+    background-color: #232324;
+}
+
+.smart-content {
+    text-align: center;
+    padding: 45px 0 30px;
+    color: #fff;
+}
+
+.smart-title {
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+.smart-description {
+    font-size: 20px;
+    color: #d94948;
+    margin: 25px 0 35px;
+    letter-spacing: 2px;
+}
+
+.smart-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.smart-item {
+    width: 240px;
+}
+
+.smart-item-img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.smart-item-title {
+    font-size: 30px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.smart-item-text {
+    font-size: 18px;
+    line-height: 21px;
+    color: #e74c3c;
+}

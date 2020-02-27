@@ -251,3 +251,68 @@ button {
 .talented-item-link:hover {
     background-color: #2ca134;
 }
+
+/* section - elegant */
+.elegant {
+    background-color: #f0f0f0;
+}
+
+.elegant-content {
+    position: relative;
+    text-align: center;
+    padding: 40px 0 180px;
+}
+
+.elegant-title {
+    font-size: 40px;
+    color: #616161;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+
+.elegant-description {
+    font-size: 20px;
+    color: #61af66;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+}
+
+.elegant-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.elegant-item-img {
+    display: block;
+    margin-bottom: 30px;
+    background-color: #495565;
+}
+
+.elegant-item-text {
+    font-size: 21px;
+    color: #232324;
+    text-align: center;
+}
+
+.elegant-prev,
+.elegant-next {
+    position: absolute;
+    content: "";
+    width: 17px;
+    height: 25px;
+    border: none;
+    top: 230px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+
+.elegant-prev {
+    background-image: url(../img/elegant-prev.png);
+    left: -120px;
+}
+
+.elegant-next {
+    background-image: url(../img/elegant-next.png);
+    right: -120px;
+}

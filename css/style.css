@@ -316,3 +316,143 @@ button {
     background-image: url(../img/elegant-next.png);
     right: -120px;
 }
+
+/* section - tariffs */
+.tariffs {
+    background-color: #ffffff;
+    border-top: 1px solid #d8d8d8;
+}
+
+.tariffs-content {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.tariffs-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.tariffs-item {
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: -135px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.tariffs-name {
+    font-size: 40px;
+    color: #616161;
+    line-height: 19px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.tariffs-description {
+    font-size: 20px;
+    color: #eb4f4e;
+    line-height: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.tariffs-option-list {
+    position: relative;
+    background-color: #f0f0f0;
+}
+
+.tariffs-item-standard .tariffs-option-list::before {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 31px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -15px;
+    background-image: url(../img/tariffs-icon.png);
+    background-repeat: no-repeat;
+
+}
+
+.tariffs-option-item {
+    font-size: 18px;
+    color: #616161;
+    line-height: 50px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #d8d8d8;
+    box-shadow: 0 1px #ffffff;
+}
+
+.tariffs-option-item:first-child {
+    border-top: 1px solid #d8d8d8;
+    box-shadow: 0 1px #ffffff;
+}
+
+.tariffs-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #616161;
+}
+
+.tariffs-price {
+    position: relative;
+    font-size: 65px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-left: 30px;
+}
+
+.tariffs-price::before {
+    position: absolute;
+    content: "$";
+    font-size: 32px;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: normal;
+}
+
+.tariffs-price span {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.tariffs-btn {
+    border: none;
+    font-size: 21px;
+    color: #616161;
+    background-color: #ffffff;
+    padding: 7px 18px;
+    border-radius: 3px;
+    transition: .2s background linear;
+}
+
+.tariffs-btn:hover {
+    background-color: #444040;
+    color: #ffffff;
+}
+
+.tariffs-item-standard .tariffs-name,
+.tariffs-item-standard .tariffs-btn {
+    color: #eb4f4e;
+}
+
+.tariffs-item-standard .tariffs-description {
+    color: #232324;
+}
+
+.tariffs-item-standard .tariffs-bottom {
+    background-color: #eb4f4e;
+}
+
+.tariffs-bottom-text {
+    font-size: 20px;
+    color: #eb4f4e;
+    letter-spacing: 3px;
+}

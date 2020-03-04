@@ -564,6 +564,43 @@ button {
     margin: 0;
 }
 
+/* section - contact */
+.contact {
+    position: relative;
+}
+
+.contact-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 615px;
+    padding: 10px 0 20px;
+    line-height: 44px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    background-color: rgba(35, 35, 36, .9);
+    color: #eb4f4e;
+    font-size: 20px;
+}
+
+.contact-content::before {
+    position: absolute;
+    content: "";
+    top: 100%;
+    left: 50%;
+    width: 14px;
+    height: 8px;
+    background-image: url(../img/contact-rectangle.png);
+    background-repeat: no-repeat;
+}
+
+.contact-title {
+    font-size: 30px;
+    color: #ffffff;
+}
+
 /* The Loader */
 .loader-wrapper {
     position: fixed;

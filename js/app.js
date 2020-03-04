@@ -39,4 +39,10 @@ $(document).ready(() => {
     $(".latest-next").on('click', () => {
         latestSlider.goToNextSlide();
     });
+
+    // ставим таймер и через секунду
+    setTimeout(function() {
+      // берем Боди и ставим ему класс, который изменит стили
+      $('body').addClass('loaded');
+    }, 1000);
 });

@@ -499,8 +499,11 @@ button {
 }
 
 .latest-text span, a {
-    text-decoration: none;
     color: #1f1f20;
+}
+
+.latest-text a {
+    text-decoration: none;
 }
 
 .latest-prev,
@@ -546,6 +549,7 @@ button {
 
 .copyright-link {
     color: #eb4f4e;
+    text-decoration: none;
 }
 
 .social-list {

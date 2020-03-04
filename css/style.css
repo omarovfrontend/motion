@@ -651,7 +651,6 @@ button {
     right: 0;
 }
   
-/* добавляем класс loaded и стили станут такими */
 .loaded .loader-wrapper .loader-section.section-left {
     transform: translateX(-100%);
     transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);

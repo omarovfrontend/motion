@@ -21,4 +21,22 @@ $(document).ready(() => {
         // активируем функцию, которая переключает слайдер вперед
         welcomeSlider.goToNextSlide();
     });
+
+
+    //слайдер latest
+    const latestSlider = $(".latest-slider").lightSlider({
+        item: 1,
+        controls: false,
+        pager: false
+    });
+
+    // клик по кнопке стрелки назад
+    $(".latest-prev").on('click', () => {
+        latestSlider.goToPrevSlide();
+    });
+
+    // клик по кнопке стрелки вперед
+    $(".latest-next").on('click', () => {
+        latestSlider.goToNextSlide();
+    });
 });
